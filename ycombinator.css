@@ -51,10 +51,7 @@ nav{
     background-color: #ffff;
 }
 .left-hero{
-    width: 50%;
     margin: auto 100px;
-    border: 2px soild black;
-    height: 100%;
 }
 .left-hero h1{
     color: #FB651E;
@@ -72,4 +69,7 @@ nav{
     text-decoration: none;
     color: #ffff;
     font-size: 1.3rem;
+}
+.right-hero img{
+
 }

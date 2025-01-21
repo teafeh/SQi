@@ -1,0 +1,66 @@
+*{
+
+}
+
+.parent{
+    background-color:  red;
+    width: 400px;
+    margin: 300px auto;
+    height: 400px;
+    position: relative;
+    border-radius: 50%;
+}
+.circle2{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 25px;
+    top: 25px;
+    background-color:  blue;
+    border-radius: 50%;
+}
+.circle3{
+    position: absolute;
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    left: 25px;
+    top: 25px;
+    border-radius: 50%;
+}
+.circle4{
+    position: absolute;
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    left: 25px;
+    top: 25px;
+    border-radius: 50%;
+}
+.circle5{
+    position: absolute;
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    left: 25px;
+    top: 25px;
+    border-radius: 50%;
+}
+.circle6{
+    position: absolute;
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+    left: 25px;
+    top: 25px;
+    border-radius: 50%;
+}
+.circle7{
+    position: absolute;
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+    top: 25px;
+    left: 25px;
+    border-radius: 50%;
+}
