@@ -1,0 +1,89 @@
+*{
+    margin: o;
+}
+.container{
+    display: flex;
+    border: 5px solid black;
+    width: 50%;
+    height: 50vh;
+    margin: 100px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position{
+    position: absolute;
+}
+.speaker1{
+    background-color: black;
+    width: 100px;
+    height: 200px;
+    top: 100px;
+    left: 50px;
+    
+}
+.circle1{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    left: 25px;
+    top: 5px;
+    border-radius: 50%;
+}
+.inner-circle1{
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 12px;
+    left: 12.5px;
+}
+.television{
+    background-color: black;
+    width: 300px;
+    height: 150px;
+    top: 110px;
+}
+.stand{
+    background-color: white;
+    width: 250px;
+    height: 120px;
+    top: 15px;
+    left: 25px;
+}
+.tv-stand{
+    background-color: black;
+    width: 20px;
+    height: 40px;
+    top: 250px;
+}
+.tv-oval{
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    border-radius: 50%;
+    top: 270px;
+}
+.speaker2{
+    background-color: black;
+    width: 100px;
+    height: 200px;
+    left: 560px;
+}
+.circle2{
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 25px;
+    top: 5px;
+}
+.inner-circle2{
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 12px;
+    left: 12.5px;
+}

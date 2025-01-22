@@ -51,6 +51,7 @@ nav{
     background-color: #ffff;
 }
 .left-hero{
+    width: 50%;
     margin: auto 100px;
 }
 .left-hero h1{

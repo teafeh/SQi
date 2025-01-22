@@ -48,7 +48,7 @@
 }
 .circle6{
     position: absolute;
-    background-color: blueviolet;
+    background-color: purple;
     width: 150px;
     height: 150px;
     left: 25px;
@@ -57,7 +57,7 @@
 }
 .circle7{
     position: absolute;
-    background-color: violet;
+    background-color: plum;
     width: 100px;
     height: 100px;
     top: 25px;
