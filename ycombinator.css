@@ -1,54 +1,94 @@
 *{
     margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 
 }
-
+body{
+    
+}
 header{
     background-color: #F5F5EE;
+    position: relative;
 }
 nav{
-    padding: 20px;
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    position: relative;
 }
 .left-nav{
     display: flex;
+    align-items: center;
+    position: relative;
 }
 .left-nav img{
-    width: 70px;
-    height: auto;
+    width: 50px;
+    margin: 5px;
 }
 .left-nav ul{
     display: flex;
-    align-items: center;
-    gap: 25px;
-}
-.left-nav ul li{
     list-style-type: none;
 }
-.left-nav ul li a{
-    text-decoration: none;
-    color: black;
+.left-nav ul li{
+    padding: 10px; 
 }
+.left-nav .links{
+    color: black;
+    text-decoration: none;
+}
+.links:hover{
+    color: rgba(129, 173, 190, 0.785);
+}
+.dropdown-link{
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown{
+    visibility: hidden;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    position: absolute;
+    border-radius: 4px;
+    padding: 10px;
+    z-index: 2;
+}
+.dropdown a{
+    color: black ;
+    padding: 7px;
+    display: block;
+    text-decoration: none;
+}
+.dropdown a:hover{
+    background-color: #F5F5EE;
+}
+
 .right-nav{
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
 }
 .right-nav a{
-    padding: 10px 20px;
-    background-color: #FB651E;
     text-decoration: none;
-    border-radius: 4px;
+    padding: 10px 15px;
+    background-color: #FB651E;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 1.2rem;
     color: #ffff;
 }
+.left-nav ul li:hover .dropdown{
+    visibility: visible;
+}
+
 .hero{
     display: flex;
     width: 100%;
     background-color: #ffff;
+    align-items: center;
+    justify-content: center;
 }
 .left-hero{
     width: 50%;
@@ -64,13 +104,41 @@ nav{
     font-size: 2rem;
 }
 .left-hero a{
-    border-radius: 5px;
-    background-color: #FDA942;
-    padding: 10px 30px;
     text-decoration: none;
     color: #ffff;
-    font-size: 1.3rem;
+    padding: 10px 30px;
 }
-.right-hero img{
+.left-hero a:hover{
+    color: #FB651E;
+}
+.left-hero .btn-link{
+    border-radius: 5px;
+    background-color: #FDA942;
+    border: none;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
 
+
+.left-hero .btn-link:hover{
+    background-color: #271c0f;
+    transform: translateY(30px);
+    transition: 5s;
+}
+.position{
+    position: absolute;
+}
+.btn-position{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 40px 40px;
+    background-color: #F5F5EE;
+    font-size: 0.9rem;
+    
+}
+.btn-position .number{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #FB651E;
 }

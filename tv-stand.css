@@ -30,6 +30,31 @@
     left: 25px;
     top: 5px;
     border-radius: 50%;
+    animation: color-circle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes color-circle{
+    20%{
+        background-color: blue;
+        transform: rotate(20deg);
+    }
+    40%{
+        background-color: red;
+        transform: rotate(40deg);
+    }
+    60%{
+        background-color: green;
+        transform: rotate(80deg);
+    }
+    80%{
+        background-color: orange;
+        transform: rotate(160deg);
+    }
+    100%{
+        background-color: purple;
+        transform: rotate(360deg);
+    }
 }
 .inner-circle1{
     background-color: black;
@@ -46,11 +71,12 @@
     top: 110px;
 }
 .stand{
-    background-color: white;
-    width: 250px;
-    height: 120px;
-    top: 15px;
-    left: 25px;
+    top: 10px;
+    left: 15px;
+}
+.stand img{
+    width: 270px;
+    height: 130px;
 }
 .tv-stand{
     background-color: black;
@@ -78,6 +104,9 @@
     border-radius: 50%;
     left: 25px;
     top: 5px;
+    animation: color-circle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 .inner-circle2{
     background-color: black;
