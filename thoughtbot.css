@@ -51,13 +51,13 @@ nav{
 }
 .left-nav a{
     font-size: 1.2rem;
-
     text-decoration: none;
     color: #fff;
     background-color: #E03131;
+    border: 1px soild #E03131;
     padding: 13px 30px;
     border-radius: 30px;
 }
 .left-nav a:hover{
-    border: 3px soild #E03131;
+    border: 1px double #e25050;
 }
