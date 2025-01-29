@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px;
+}
+.color-blend{
+    border: 2px solid black;
+    height: 50vh;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.position{
+    position: absolute;
+    mix-blend-mode: exclusion;
+}
+.blend1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    top: 50px;
+    left: 250px;
+}
+.blend2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    top: 130px;
+    left: 210px;
+}
+.blend3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: green;
+    top: 130px;
+    left: 310px;
+}

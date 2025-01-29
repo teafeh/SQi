@@ -1,15 +1,21 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-color: #F2F7F8;
 }
 nav{
     border: 2px solid black;
-    width: 80%;
+    width: 85%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     border: none;
     gap: 3rem;
+    position: relative;
 }
 .menu-list{
     padding: 20x;
@@ -36,8 +42,9 @@ nav{
     gap: 1rem;
 }
 .right-menu .sign-in{
+    border: thin solid;
     padding: 10px 15px;
-    background-color: #f4f4f4;
+    background-color: #F2F7F8;
     border-radius: 8px;
 }
 .right-menu .sign-in a{
@@ -46,6 +53,7 @@ nav{
     font-size: 1.2rem;
 }
 .right-menu .create-acct{
+    border: thin solid;
     padding: 10px 15px;
     background-color: #101E2C;
     border-radius: 8px;
@@ -55,4 +63,192 @@ nav{
     color: #f4f4f4;
     text-decoration: none;
 
+}
+.dropdown{
+    position: relative;
+    cursor: pointer;
+}
+
+ul li .dropdown-parent{
+    display: none;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    
+    gap: 2rem;
+    box-shadow: 1px 1px 6px;
+    border-radius: 6px;
+    z-index: 2;
+}
+.dropdown-children a{
+    color: #3D4F60;
+    padding: 5px;
+    border-radius: 10px;
+}
+.dropdown-children a:hover{
+    color: #000;
+    background-color: rgba(222, 221, 221, 0.182);
+}
+a:hover .link-p h1{
+    color: #1060D6;
+}
+a:hover .link-t h1{
+    color: #17B25B;
+}
+a:hover .link-f h1{
+    color: #0C1825;
+}
+a:hover .link-s h1{
+    color: #2195F2;
+}
+a:hover .link-n h1{
+    color: #E5489B;
+}
+a:hover .link-h h1{
+    color: #FF4D02;
+}
+.dropdown-sub{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+.dropdown-logo img{
+    width: 40px;
+}
+.dropdown-text{
+    align-items: center;
+}
+.dropdown-text h1{
+    font-size: 1.5rem;
+}
+.dropdown-text p{
+    font-size: 0.8rem;
+}
+ul li:hover .dropdown-parent{
+    display: flex;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+    padding: 70px;
+    background-color: #F2F7F8;
+}
+
+.left-hero{
+    padding: 70px 20px;
+}
+.link-btn{
+    padding: 20px;
+}
+.left-content .link-btn a{
+    text-align: center;
+    padding: 15px 40px;
+    background-color: #0089FF;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+.hero-text{
+    padding: 20px;
+}
+.hero-text h1{
+    font-size: 3rem;
+}
+.hero-text p{
+    font-size: 1.2rem;
+}
+.btn-hero{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    
+}
+.btn-hero button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-color: #122231;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn-hero button:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    background-color: #000;
+}
+button img{
+    width: 20px;
+}
+.right-hero{
+    position: relative;
+}
+.right-hero .bg-hero{
+    position: relative;
+    width: 550px;
+    animation: moving infinite 4s linear;
+}
+.frame1{
+    top: 70px;
+    right: 450px;
+    position: absolute;
+    width: 200px;
+    animation: moving infinite 4s linear;
+}
+.frame2{
+    position: absolute;
+    width: 200px;
+    right: 450px;
+    top: 250px;
+    animation: moving infinite 4s;
+}
+.frame3{
+    position: absolute;
+    width: 200px;
+    top: 450px;
+    right: 450px;
+    animation: moving infinite 4s;
+}
+.frame4{
+    position: absolute;
+    width: 200px;
+    top: 50px;
+    left: 400px;
+    animation: moving infinite 4s;
+}
+.frame5{
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    width: 200px;
+    animation: moving infinite 4s;
+}
+.frame6{
+    position: absolute;
+    left: 400px;
+    top: 450px;
+    width: 200px;
+    animation: moving infinite 4s;
+}
+@keyframes moving {
+    0%{
+        transform: translateY(30px);
+        transition: 1s;
+    }
+    50%{
+        transform: translateY(20px);
+        transition: 2s;
+        
+    }
+    100%{
+        transform: translateY(10px);
+        transition: 1s;
+    }
+
+    
 }

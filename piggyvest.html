@@ -1,29 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>piggyvest</title>
-    <link rel="stylesheet" href="./piggryvest.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./piggryvest.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="menu-list">
-                <img src="./logo.svg" alt="logo">
-                <ul>
-                    <li><a href="">Save</a></li>
-                    <li><a href="">Invest</a></li>
-                    <li><a href="">Stories</a></li>
-                    <li><a href="">FAQs</a></li>
-                    <li><a href="">Resources</a></li>
-                </ul>
-            </div>
-            <div class="right-menu">
-                <button class="sign-in"><a href="#">Sign in</a></button>
-                <button class="create-acct"><a href="#">Create free account</a></button>
-            </div>
-        </nav>
+      <nav>
+        <div class="menu-list">
+          <a href="#"><img src="./logo.svg" alt="logo" /></a>
+          <ul>
+            <li>
+              <a href="" class="dropdown">Save</a>
+              <div class="dropdown-parent">
+                <div class="dropdown-children">
+                  <a href="" class="dropdown-sub">
+                    <div class="dropdown-logo">
+                      <img src="./savings.png" alt="" />
+                    </div>
+                    <div class="dropdown-text link-p">
+                      <h1>Piggybank</h1>
+                      <p>Automated Savings</p>
+                    </div>
+                  </a>
+                  <a href="" class="dropdown-sub">
+                    <div class="dropdown-logo">
+                      <img src="./target.png" alt="" />
+                    </div>
+                    <div class="dropdown-text link-t">
+                      <h1>Target Savings</h1>
+                      <p>Goal-oriented Savings</p>
+                    </div>
+                  </a>
+                  <a href="" class="dropdown-sub">
+                    <div class="dropdown-logo">
+                      <img src="./dollar.png" alt="" />
+                    </div>
+                    <div class="dropdown-text link-f">
+                      <h1>Flex Dollar</h1>
+                      <p>Dollar Savings</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="dropdown-children">
+                  <a href="" class="dropdown-sub">
+                    <div class="dropdown-logo">
+                      <img src="./lock.png" alt="" />
+                    </div>
+                    <div class="dropdown-text link-s">
+                      <h1>Safelock</h1>
+                      <p>Fixed Savings</p>
+                    </div>
+                  </a>
+                  <a href="" class="dropdown-sub">
+                    <div class="dropdown-logo">
+                      <img src="./wallet.png" alt="" />
+                    </div>
+                    <div class="dropdown-text link-n">
+                      <h1>Flex Naira</h1>
+                      <p>Flexible Savings</p>
+                    </div>
+                  </a>
+                  <a href="" class="dropdown-sub">
+                    <div class="dropdown-logo">
+                      <img src="./target.png" alt="" />
+                    </div>
+                    <div class="dropdown-text link-h">
+                      <h1>House Money</h1>
+                      <p>Semi Strict Wallet</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li><a href="">Invest</a></li>
+            <li><a href="">Stories</a></li>
+            <li><a href="">FAQs</a></li>
+            <li>
+                <a href="" class="dropdown">Resources</a>
+                <div class="dropdown-parent">
+                    <div class="dropdown-children">
+                        <a href="" class="dropdown-sub">
+                            <div class="dropdown-logo">
+                                <img src="./blog.svg" alt="">
+                            </div>
+                            <div class="dropdown-text">
+                                <h1>Blog</h1>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-sub">
+                            <div class="dropdown-logo">
+                                <img src="./comics.svg" alt="">
+                            </div>
+                            <div class="dropdown-text">
+                                <h1>Comics</h1>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-sub">
+                            <div class="dropdown-logo">
+                                <img src="./newletter.svg" alt="">
+                            </div>
+                            <div class="dropdown-text">
+                                <h1>Newsletter</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="dropdown-children">
+                        <a href="" class="dropdown-sub">
+                            <div class="dropdown-logo">
+                                <img src="./report.svg" alt="">
+                            </div>
+                            <div class="dropdown-text">
+                                <h1>Report</h1>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-sub">
+                            <div class="dropdown-logo">
+                                <img src="./calculator.svg" alt="">
+                            </div>
+                            <div class="dropdown-text">
+                                <h1>Calculator</h1>
+                            </div>
+                        </a>
+                        <a href="" class="dropdown-sub">
+                            <div class="dropdown-logo">
+                                <img src="./ebook.svg" alt="">
+                            </div>
+                            <div class="dropdown-text">
+                                <h1>Ebook</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+          </ul>
+        </div>
+        <div class="right-menu">
+          <button class="sign-in"><a href="#">Sign in</a></button>
+          <button class="create-acct">
+            <a href="#">Create free account</a>
+          </button>
+        </div>
+      </nav>
     </header>
-</body>
+    <main>
+        <section class="hero-section">
+            <div class="left-hero">
+                <div class="left-content">
+                    <div class="link-btn">
+                        <a href="">The 2024 PiggyVest Savings Report</a>
+                    </div>
+                    <div class="hero-text">
+                        <h1>The Better Way to Save & Invest</h1>
+                        <p>Piggyvest helps over 5 million customers achieve their financial goals by helping them save and invest with ease.</p>
+                    </div>
+                </div>
+                <div class="btn-hero">
+                    <button>
+                        <img src="./iphone.svg" alt=""> Get on iPhone
+                    </button>
+                    <button>
+                        <img src="./andriod.svg" alt=""> Get on Android
+                    </button>
+                </div>
+            </div>
+            <div class="right-hero">
+                <img src="./backgrounpiggy.avif" alt="" class="bg-hero" >
+                <img src="./Frame8011.png" alt="" class="frame1" >
+                <img src="./Frame3 (1).avif" alt="" class="frame2">
+                <img src="./Frame5 (1).avif" alt="" class="frame3">
+                <img src="./Frame178.png" alt="" class="frame4">
+                <img src="./card4 (1).avif" alt="" class="frame5">
+                <img src="./housemoney.svg" alt="" class="frame6">
+            </div>
+        </section>
+    </main>
+  </body>
 </html>
