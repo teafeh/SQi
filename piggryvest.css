@@ -187,53 +187,47 @@ button img{
 }
 .right-hero{
     position: relative;
+    animation: moving infinite 4s linear;
 }
 .right-hero .bg-hero{
     position: relative;
     width: 500px;
-    animation: moving infinite 4s linear;
 }
 .frame1{
     top: 70px;
     right: 400px;
     position: absolute;
     width: 185px;
-    animation: moving infinite 4s linear;
 }
 .frame2{
     position: absolute;
     width: 185px;
     right: 400px;
     top: 250px;
-    animation: moving infinite 4s;
 }
 .frame3{
     position: absolute;
     width: 185px;
     top: 400px;
     right: 400px;
-    animation: moving infinite 4s;
 }
 .frame4{
     position: absolute;
     width: 185px;
     top: 50px;
     left: 370px;
-    animation: moving infinite 4s;
 }
 .frame5{
     position: absolute;
     left: 370px;
     top: 300px;
     width: 185px;
-    animation: moving infinite 4s;
 }
 .frame6{
     position: absolute;
     left: 370px;
     top: 450px;
     width: 185px;
-    animation: moving infinite 4s;
 }
 @keyframes moving {
     0%{

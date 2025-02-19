@@ -61,3 +61,33 @@ nav{
 .left-nav a:hover{
     border: 1px double #e25050;
 }
+.hero-image{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+.hero-text{
+    position: absolute;
+    width: 40%;
+    top: 200px;
+    left: 200px;
+    color: #e1d9d9;
+    background-color: transparent;
+}
+.hero-text h1{
+    font-size: 2.5rem;
+    margin: 15px 0;
+    width: 90%;
+}
+.hero-text p{
+    font-size: 1.1rem;
+}
+.btn button{
+    margin: 15px 0;
+    padding: 15px 30px;
+    background-color: #E03131;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+}

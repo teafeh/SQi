@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
+
 body{
     padding: 50px;
     justify-content: center;
     align-items: center;
 }
 .container{
-    background-color: rgba(76, 76, 183, 0.429);
     width: 20%;
     height: 70vh;
     margin: auto;
@@ -113,4 +114,7 @@ button{
     border-top-left-radius: 10px;
     top: 430px;
     border-bottom: 3px solid #f4f4f4;
+}
+@media(max-width:1029px){
+    
 }

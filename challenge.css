@@ -22,16 +22,18 @@
     overflow: hidden;
 }
 
-.progress{
-    position: absolute;
-    width: 1%;
+
+.loader:hover{
+    animation: movingbg linear 10s;
+    width: 0%;
+    height: 20px;
     background-color: blueviolet;
     height: 100%;
-    animation: movingbg infinite 2s;
+    /* cursor: pointer; */
 }
 @keyframes movingbg{
     0%{
-        width: 1%;      
+        width: 0%;      
     }
     30%{
         width: 20%;
@@ -44,5 +46,6 @@
     }
     100%{
         width: 100%;
+        /* background-color: blueviolet; */
     }
 }
