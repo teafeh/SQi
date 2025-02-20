@@ -36,3 +36,8 @@ a:hover{
     color: black;
     border: 2px solid black;
 }
+@media(max-width:600px){
+    .list-links{
+        margin: 20px;
+    }
+}
