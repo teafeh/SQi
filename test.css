@@ -2,11 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #fff;
 }
-.content{
+#card-parent{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+
 }
-h1{
+ #card{
+   
+    position: relative;
+    
 }
+#number h1{
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    font-size: 4rem;
+    font-weight: 900;
+    background-color: transparent;
+} 

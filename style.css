@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:  sans-serif;
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.list-links{
+    margin: 100px;
+}
+.list-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.list-links ul li{
+    margin: 30px;
+}
+a{
+    padding: 20px 30px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
