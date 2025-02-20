@@ -40,4 +40,7 @@ a:hover{
     .list-links{
         margin: 20px;
     }
+    .list-links ul li{
+        margin: 10px;
+    }
 }
